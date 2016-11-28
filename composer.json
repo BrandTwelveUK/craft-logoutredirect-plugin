@@ -1,0 +1,14 @@
+{
+	"name": "/logoutredirect",
+	"description": "Redirect users when they logout on the front-end. ",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Brand Twelve",
+			"homepage": "https://brandtwelve.co.uk"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

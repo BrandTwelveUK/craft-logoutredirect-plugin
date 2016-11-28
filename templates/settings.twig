@@ -1,0 +1,11 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+        label: 'Logout Redirect URL' | t,
+        instructions: 'Where would you like the user to be redirected on logout?' | t,
+        id: 'logoutRedirectUrl',
+        class: 'first',
+        name: 'logoutRedirectUrl',
+        value: settings.logoutRedirectUrl,
+        size: 60,
+}) }}
